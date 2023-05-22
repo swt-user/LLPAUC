@@ -12,6 +12,6 @@ The candidate datasets are: adressa_clean,adressa_noise,yelp_clean,yelp_noise,am
 
 In order to reproduce the results reported in our paper, we set the default hyper-parameters for our paper.
 For example, the command to obtain the LLPAUC results for amazon_book_clean dataset is
-'''
+``
 python -u run_main.py --dataset=amazon_book_clean --loss=TP_Point_TP
-'''
+``
