@@ -1,0 +1,9 @@
+drop_rate: 0.2
+embedding_size: 64
+exponent: 1.0
+inner: 2
+lam1: 5.0
+lam2: 19.5
+neg_sample: 100
+num_gradual: 30000
+type: TP_User
