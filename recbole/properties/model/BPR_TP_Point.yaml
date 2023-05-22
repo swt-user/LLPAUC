@@ -1,0 +1,13 @@
+drop_rate: 0.3
+embedding_size: 64
+exponent: 1.0
+inner: 1.0
+lam1: 12.0
+lam2: 16.0
+beta: 0.02
+alpha: 0.8
+neg_sample: 100
+num_gradual: 20000
+type: TP_Point_OP
+neg_weight: 50
+neg_margin: -0.2
