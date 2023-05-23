@@ -1,6 +1,4 @@
-<<<<<<< HEAD
-# NIPS_2023_LLPAUC
-=======
+
 # NIPS_2023_LLPAUC
 This is the source code for the LLPAUC. The code references Recbole (https://github.com/RUCAIBox/RecBole)
 
@@ -26,4 +24,4 @@ For example, the command to obtain the LLPAUC results for amazon_book_clean data
 ``
 python -u run_main.py --dataset=amazon_book_clean --loss=TP_Point_TP
 ``
->>>>>>> master
+
