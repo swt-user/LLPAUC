@@ -1,5 +1,5 @@
 
-# NIPS_2023_LLPAUC
+# LLPAUC
 This is the source code for the LLPAUC. The code references Recbole (https://github.com/RUCAIBox/RecBole)
 
 The candidate loss functions are: CCL, TP_Point_TP, TP_Point_OP, BPR, BCE, softmax
