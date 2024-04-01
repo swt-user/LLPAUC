@@ -91,7 +91,7 @@ class BPRLoss_OP_DRO_Triplet_Auto(nn.Module):
             max_val_n = torch.log(1+torch.exp(5*(torch.square(neg_score - b) + \
                           2 * (1 + gamma) * neg_score - sn)))/5
             loss = -sp - torch.mean(max_val_p)/self.alpha + \
-                  sn + torch.mean(max_val_n)/self.beta - \
+                  sn + torch.mean(max_val_n)/self.beta + \
                    -gamma**2- theta_b * (b-1-gamma) + theta_a * (a+gamma)
         elif self.type == 'TP_Point_OP':
             a=torch.clip(a,0,1)
